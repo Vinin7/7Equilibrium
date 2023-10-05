@@ -1,0 +1,43 @@
+body {
+  color: black;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  width: 318px;
+  height: 420px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.2); /* Correct the box-shadow syntax */
+}
+
+img {
+  width: 274px;
+  height: auto; /* Use 'auto' to maintain image aspect ratio */
+  border-radius: 10px;
+  margin: 15px;
+}
+
+span {
+  font-size: 16px;
+  color: hsl(215, 32%, 27%);
+}
+
+.content {
+  margin: 20px 20px 30px; /* Added more spacing below the content */
+  padding-inline: 20px;
+  font-weight: bold; /* Make "Scan" text bold */
+}
+
+h1 {
+  line-height: 1; /* Adjust the line-height to make the text occupy 2 lines */
+}
